@@ -5,7 +5,7 @@
 
 ### Source
 
-All Hydrology data was retrived from USGS, the United States Geological Survey, who provide all sorts of free natural science GIS datasets. (*https://www.usgs.gov/*) DEM retrived from the Kentucky Geography Network (*kyraster.ky.gov*) Map Compiled by M.H.Whitlock in 2024 (mhwh225@uky.edu)
+All Hydrology data was retrived from USGS, the United States Geological Survey, who provide all sorts of free natural science GIS datasets. (*https://www.usgs.gov/*) DEM retrived from the Kentucky Geography Network (*https://kyraster.ky.gov/*) Map Compiled by M.H.Whitlock in 2024 (mhwh225@uky.edu)
 
 ### Why this map was made 
 
