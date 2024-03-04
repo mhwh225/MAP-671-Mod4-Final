@@ -1,8 +1,13 @@
 # MAP-671-Mod4-Final: Ohio Region Watershed Breakdown
 
-![MAP-671-Mod4-Final](<MAP-671 Mod 4-1.webp>)   
+![MAP-671-Mod4-Final](</Graphics/MAP-671 Mod 4-1.webp>)   
 *MAP-671-Mod4-Final*
 
+![MAP-671 Mod 4 (600dpi)](</Graphics/MAP-671 Mod 4 (600dpi).png>)
+*MAP-671-Mod4-Final (600dpi)*
+
+![MAP-671 Mod 4 (1200dpi)](</Graphics/MAP-671 Mod 4 (1200dpi).png>)
+*MAP-671 Mod 4 (1200dpi)*
 ### Source
 
 All Hydrology data was retrived from USGS, the United States Geological Survey, who provide all sorts of free natural science GIS datasets. (*https://www.usgs.gov/*) DEM retrived from the Kentucky Geography Network (*kyraster.ky.gov*) Map Compiled by M.H.Whitlock in 2024 (mhwh225@uky.edu)
@@ -21,15 +26,15 @@ Firstly I decided to cover the HU2 Ohio Region Watershed since it makes up the v
 
 ### Figures
 fig 1.
-![kyDEM](kyDEM.PNG)
+![kyDEM](/Graphics/kyDEM.PNG)
 *Adding a DEM to the background will let people get an idea how the watersheds flow*
 
 fig 2.
-![Waterways](<all waterways.PNG>)
+![Waterways](</Graphics/all waterways.PNG>)
 *These are all the streams and rivers that make up the Ohio Region Watershed*
 
 fig 3.
-![HU12](HUC12.PNG)
+![HU12](/Graphics/HUC12.PNG)
 *These are the HU12 watersheds, the smallest the dataset keeps track of*
 
 ### Projection 
