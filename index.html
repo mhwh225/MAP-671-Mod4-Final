@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<!-- This is a comment in HTML -->
+
+<head>
+	<meta charset=utf-8 />
+	<!-- Below is the title of the document -->
+	<title>MAP-671-Mod4-Final: Ohio Region Watershed Breakdown</title>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+	<style>
+		/* This is a comment in CSS. Below are the document styles. */
+		/* Hexadecimal values for UKy Colors: 
+            #c7c9c8 light gray 
+            #63666a dark gray
+            #15397f dark blue
+            #009bda light blue
+            #0033a0 official blue
+        */
+		body {
+			margin: 0;
+			padding: 0;
+			background: #ffffff;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 400;
+			color: #3d3d3d;
+		}
+
+		section {
+			width: 960px;
+			/* width: 80%; */
+			margin: 20px auto;
+		}
+
+		h1 {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 300;
+			/* The em unit. 2.5x the current size */
+			font-size: 2.5em;
+			letter-spacing: .04em;
+			text-transform: uppercase;
+		}
+
+		h2 {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 700;
+			color: gray;
+			font-size: 1.1em;
+			letter-spacing: .04em;
+		}
+
+		p {
+			font-size: 1em;
+			line-height: 1.5em;
+		}
+
+		a {
+			color: #005daa;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		ul {
+			padding-left: 20px;
+		}
+
+		li {
+			margin: 10px 0
+		}
+
+		#map {
+			width: 100%;
+			margin: 0px auto;
+		}
+
+		.max-width-img {
+			width: 100%;
+		}
+
+		/* Add custom style class here */
+	</style>
+</head>
+
+<body>
+	<section>
+		<!-- The division element contains an image element -->
+		<div id='map'>
+			<!-- The image element uses the the 'src' property to show an image on the page. -->
+			<img src="Graphics/MAP-671 Mod 4.webp" class="max-width-img" alt="This map displays the selected area of interest from OpenStreetMap">
+		</div>
+		<!-- <a href="">Link to high resolution version</a> -->
+
+		<!-- This is an HTML comment. Find the comments below and follow the instructions. -->
+
+		<h1>MAP-671-Mod4-Final: Ohio Region Watershed Breakdown</h1>
+
+		<!-- Add you information below -->
+		
+		<h2>Source</h2>
+
+			<p>All Hydrology data was retrived from USGS, the United States Geological Survey, who provide all sorts of free natural science GIS datasets. (https://www.usgs.gov/) DEM retrived from the Kentucky Geography Network (https://kyraster.ky.gov/) Map Compiled by M.H.Whitlock in 2024 (mhwh225@uky.edu)
+		</p>
+			<h2>Why this map was made</h2>
+			
+			<p>To gain a better understanding of how kentucky's watersheds work and how they overlap with nearby watersheds.
+		</p>
+			<h2>How this map was made</h2>
+			
+			<p>Firstly I decided to cover the HU2 Ohio Region Watershed since it makes up the vast majority of kentucky's total watershed coverage. What a watershed is, is a area of land where all the water flows down to one point. for example the HU2 Ohio Reigon Watershed all flows southwest to the HU4 Lower Ohio Watershed into the missispi river. Watersheds are made up of smaller watershed with the biggest being HU2's that get divided smaller and smaller untill waterflow can't be further divided. This map shows down to the HU6 level which can be seen dividing the some of the larger watersheds with a thin gray line. data in avalible for smaller watersheds like HU8s or even HU12s buT they become difficult to make out at this scale. For my map I decided that I would put an basemap of the HU2-HU6 Watersheds of the Ohio Region with an overlay of the outline of kentucky to give a sense of visual scale to the map and help people understand the true size of these watersheds. to recreate this map you need only to the link above find their interactive hydrology map download the desired watershed data. Then decide the minimum size watershed you want to look at, and make it your basemap by giving it some color and opacity to put an elevation map under. Then layer only the borders of the larger watersheds on top at which point you can add labels, some smaller watersheds like you see in Wabash and Upper Ohio, or a state of your choice for scale. 
+			</p>
+
+		<ul>
+			<!-- Change the following contacts to your personal brand, whatever you want it to be! -->
+			<li>back to GitHub repository: <a href="https://github.com/mhwh225/MAP-671-Mod4-Final?tab=readme-ov-file">MAP-671-Mod4-Final (repo)</a> </li>
+		</ul>
+		<ul>
+			<!-- Change the following contacts to your personal brand, whatever you want it to be! -->
+			<li>Get A Higher Resolution Image Here: <a href="Graphics/MAP-671 Mod 4 (1200dpi).png">MAP-671 Mod 4 (1200dpi)</a> </li>
+		</ul>
+		<hr>
+		<a href="https://uky-gis.github.io"><img width="20%"
+				src="https://uky-gis.github.io/graphics/logo-color-400px.png"
+				alt="University of Kentucky Geography"></a>
+
+	</section>
+</body>
+
+</html>
