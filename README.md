@@ -3,11 +3,6 @@
 ![MAP-671-Mod4-Final](</Graphics/MAP-671 Mod 4-1.webp>)   
 *MAP-671-Mod4-Final*
 
-![MAP-671 Mod 4 (600dpi)](</Graphics/MAP-671 Mod 4 (600dpi).png>)
-*MAP-671-Mod4-Final (600dpi)*
-
-![MAP-671 Mod 4 (1200dpi)](</Graphics/MAP-671 Mod 4 (1200dpi).png>)
-*MAP-671 Mod 4 (1200dpi)*
 ### Source
 
 All Hydrology data was retrived from USGS, the United States Geological Survey, who provide all sorts of free natural science GIS datasets. (*https://www.usgs.gov/*) DEM retrived from the Kentucky Geography Network (*kyraster.ky.gov*) Map Compiled by M.H.Whitlock in 2024 (mhwh225@uky.edu)
@@ -24,6 +19,10 @@ Firstly I decided to cover the HU2 Ohio Region Watershed since it makes up the v
 
 
 
+### Projection
+
+the original data was mostly just several layers made of ploygons outlining the area of the varrious levels of watershed. After creating the map most of the sections that where to small to make much sense of, HU12,  were discarded and the larger watersheds like HU4 and HU2 were made clear so they could be overlaid on top of the HU6 layer to better show how the layers fit together.
+
 ### Figures
 fig 1.
 ![kyDEM](/Graphics/kyDEM.PNG)
@@ -37,9 +36,13 @@ fig 3.
 ![HU12](/Graphics/HUC12.PNG)
 *These are the HU12 watersheds, the smallest the dataset keeps track of*
 
-### Projection 
+fig 4.
+![MAP-671 Mod 4 (600dpi)](</Graphics/MAP-671 Mod 4 (600dpi).png>)
+*MAP-671-Mod4-Final (600dpi)*
 
-The initial data only had the diffrent levels of watershed mapped out of basic polygons and some information about area and watershed classification, i.e. HU4 HU12 and so on. The final data as it is meant to give a more general idea as to how the watersheds are sectioned of and how they interact.
+ fig 5.
+![MAP-671 Mod 4 (1200dpi)](</Graphics/MAP-671 Mod 4 (1200dpi).png>)
+*MAP-671 Mod 4 (1200dpi)*
 
 * Project title (10 points)
 * Information about data source (10 points) 
